@@ -1,0 +1,33 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "description": "代码练习",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxuewen/train.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuxuewen/train/issues"
+  },
+  "homepage": "https://github.com/xuxuewen/train#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@baiducloud/sdk": "^1.0.0-rc.5"
+  }
+}
