@@ -28,6 +28,9 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "@baiducloud/sdk": "^1.0.0-rc.5"
+    "@baiducloud/bos-uploader": "^1.4.0-rc.0",
+    "@baiducloud/sdk": "^1.0.0-rc.5",
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1"
   }
 }
