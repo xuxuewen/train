@@ -1,8 +1,4 @@
-// import $ from 'jquery';
-// import baidubce,{BosClient} from '@baiducloud/sdk/dist/baidubce-sdk.bundle';
-
 import {MimeType,BosClient,HttpClient} from '@baiducloud/sdk/dist/baidubce-sdk.bundle';
-
 
 let default_doRequest = HttpClient.prototype._doRequest;
 
